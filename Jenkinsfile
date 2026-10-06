@@ -17,10 +17,5 @@ pipeline{
                bat 'mvn package'
             }
         }
-	stage('test'){
-            steps{
-               bat 'mvn package'
-            }
-        }
     }
 }
